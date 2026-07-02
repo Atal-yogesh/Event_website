@@ -1,32 +1,173 @@
-.my-navbar{
-    background-color:aqua ;
-    height: 80px;
-   
+.navbar{
+    padding: 12px 0;
+}
+
+.navbar-brand img{
+    transition: 0.3s;
+}
+
+.navbar-brand img:hover{
+    transform: rotate(10deg) scale(1.08);
+}
+
+.nav-link{
+    font-weight:500;
+    position:relative;
+    transition:0.3s;
+}
+
+
+
+.nav-link:hover::after{
+    width:100%;
+}
+
+.nav-link:hover{
+    color:#ffc107 !important;
+}
+
+.btn{
+    border-radius:30px;
+    padding:8px 20px;
+}
+
+@media (max-width:991px){
+
+    .navbar-collapse{
+        margin-top:15px;
+        background:#212529;
+        padding:20px;
+        border-radius:10px;
+    }
+
+    .navbar-nav{
+        margin-bottom:20px;
+    }
+
+    .btn{
+        width:100%;
+    }
 
 }
-.kayamat{
-     margin: 20px;
-     display: flex;
-    flex-wrap: wrap;
-     
-}
-.card{
-    width: 300px;
-    height: 400px;
-    margin: 10px;
-    border-radius: 50px;
-   transition: all 0.3s ease;
-    
+/*==========================
+SERVICE CARDS
+==========================*/
+
+.service-card{
+
+border:none;
+
+border-radius:20px;
+
+overflow:hidden;
+
+transition:.4s;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
 
 }
-.card:hover{
-    transform: translateY(-10px);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+
+.service-card:hover{
+
+transform:translateY(-12px);
+
+box-shadow:0 20px 45px rgba(0,0,0,.18);
+
 }
-card:hover img{
-    transform: scale(1.1);
+
+.card-image{
+
+overflow:hidden;
+
 }
-.card-img-top{
-    height: 250px;
-    object-fit: cover;
+
+.card-image img{
+
+height:240px;
+
+width:100%;
+
+object-fit:cover;
+
+transition:.6s;
+
+}
+
+.service-card:hover img{
+
+transform:scale(1.1);
+
+}
+
+.card-body{
+
+padding:25px;
+
+}
+
+.card-body h5{
+
+margin-bottom:15px;
+
+}
+
+.card-body p{
+
+font-size:15px;
+
+line-height:1.7;
+
+}
+
+.btn-primary{
+
+border-radius:50px;
+
+padding:10px 25px;
+
+transition:.3s;
+
+}
+
+.btn-primary:hover{
+
+transform:translateY(-3px);
+
+}
+
+section{
+
+overflow:hidden;
+
+}
+.modal-content{
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.modal img{
+    transition:0.5s;
+}
+
+.modal img:hover{
+    transform:scale(1.03);
+}
+
+.modal-body h2{
+    color:#0d6efd;
+}
+
+.list-group-item{
+    border:none;
+    padding:12px 0;
+}
+
+.modal-footer{
+    border-top:none;
+    padding:20px;
+}
+
+.modal .btn{
+    border-radius:50px;
+    padding:10px 25px;
 }
