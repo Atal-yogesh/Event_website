@@ -9,144 +9,375 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
-  <div class="container-fluid my-navbar">
-    <!-- logo -->
     
-  <div class="container">
-    <a class="navbar-brand" href="#">
-      <img src="https://img.magnific.com/premium-vector/alphabetical-letter-e-logo-collection_647881-448.jpg?semt=ais_hybrid&w=740&q=80 " alt="Bootstrap" width="70" height="80">
-    </a>
-  </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent ">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-      
+        <!-- Logo -->
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="https://thumbs.dreamstime.com/b/creative-simple-dragons-silhouettes-logo-stylized-vector-illustrations-simple-dragons-silhouettes-logo-130475058.jpg"
+                alt="Logo"
+                class="rounded-circle me-2"
+                style="width:50px; height:50px; object-fit:cover;">
+            <span class="fw-bold fs-4">Dragon</span>
+        </a>
 
+        <!-- Toggle Button -->
+        <button class="navbar-toggler border-0 shadow-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent">
+
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav mx-auto mb-3 mb-lg-0 gap-lg-4 text-center">
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Packages</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+
+            </ul>
+
+            <!-- Buttons -->
+            <div class="d-flex flex-column flex-lg-row gap-2">
+
+                <a href="./login.html" class="btn btn-light">
+                    Log In
+                </a>
+
+                <a href="./signup.html" class="btn btn-outline-light">
+                    Sign Up
+                </a>
+
+            </div>
+
+        </div>
 
     </div>
-  </div>
 </nav>
 
 
-        <!-- Add Card -->
-        <div class="container my-5">
 
-    <div class="row g-4">
+<!-- ===================== EVENT SERVICES ===================== -->
 
-        <!-- Card 1 -->
-        <div class="col-sm-6 col-md-4 col-lg-3">
-            <div class="card h-100">
-                <img src="https://images.unsplash.com/photo-1653821355736-0c2598d0a63e?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZXZlbnQlMjBwbGFubmluZ3xlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="Event Planning">
-                <div class="card-body">
-                    <p class="card-text">
-                        Some quick example text to build on the card title and make up the bulk of the card's content.
-                    </p>
-                </div>
-            </div>
-        </div>
+<section class="py-5 bg-light">
 
-        <!-- Card 2 -->
-        <div class="col-sm-6 col-md-4 col-lg-3">
-            <div class="card h-100">
-                <img src="https://images.unsplash.com/photo-1469371670807-013ccf25f16a?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGV2ZW50JTIwcGxhbm5pbmd8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="Wedding Planner">
-                <div class="card-body">
-                    <p class="card-text">
-                        Some quick example text to build on the card title and make up the bulk of the card's content.
-                    </p>
-                </div>
-            </div>
-        </div>
+<div class="container">
 
-        <!-- Card 3 -->
-        <div class="col-sm-6 col-md-4 col-lg-3">
-            <div class="card h-100">
-                <img src="https://cdn0.weddingwire.in/vendor/4706/3_2/640/jpg/file-1774371379420-15-494706-177437138132379_15_494706-177571969417053.jpeg" class="card-img-top" alt="Wedding Planner">
-                <div class="card-body">
-                    <p class="card-text">
-                        Some quick example text to build on the card title and make up the bulk of the card's content.
-                    </p>
-                </div>
-            </div>
-        </div>
+<div class="text-center mb-5">
 
-        <!-- Card 4 -->
-        <div class="col-sm-6 col-md-4 col-lg-3">
-            <div class="card h-100">
-                <img src="https://content.jdmagicbox.com/comp/kolhapur/b2/0231px231.x231.180709131103.s4b2/catalogue/artistic-event-planner-kadamwadi-kolhapur-event-organisers-stc3tktrft.jpg" class="card-img-top" alt="Wedding Planner">
-                <div class="card-body">
-                    <p class="card-text">
-                        Some quick example text to build on the card title and make up the bulk of the card's content.
-                    </p>
-                </div>
-            </div>
-        </div>
+<h1 class="fw-bold">Our Event Services</h1>
 
-        <!-- Card 5 -->
-        <div class="col-sm-6 col-md-4 col-lg-3">
-            <div class="card h-100">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMm295rEzUhAHnPMPoRnry842pEpinf3K5ZIlbf1aHilbeiiuelwL7Hbo&s=10" class="card-img-top" alt="Wedding Planner">
-                <div class="card-body">
-                    <p class="card-text">
-                        Some quick example text to build on the card title and make up the bulk of the card's content.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <!-- card 6-->
-        <div class="col-sm-6 col-md-4 col-lg-3">
-            <div class="card h-100">
-                <img src="https://cdn0.weddingwire.in/vendor/6607/3_2/960/jpeg/aashirwaad-events2_15_236607-1564555573.jpeg" class="card-img-top" alt="Wedding Planner">
-                <div class="card-body">
-                    <p class="card-text">
-                        Some quick example text to build on the card title and make up the bulk of the card's content.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <!-- 7 -->
-         <div class="col-sm-6 col-md-4 col-lg-3">
-            <div class="card h-100">
-                <img src="https://img.magnific.com/free-photo/decorated-banquet-hall-with-flowers_8353-10058.jpg?semt=ais_hybrid&w=740&q=80" class="card-img-top" alt="Wedding Planner">
-                <div class="card-body">
-                    <p class="card-text">
-                        Some quick example text to build on the card title and make up the bulk of the card's content.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <!-- 8 -->
-         <div class="col-sm-6 col-md-4 col-lg-3">
-            <div class="card h-100">
-                <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZXZlbnQlMjBwbGFubmluZ3xlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="Wedding Planner">
-                <div class="card-body">
-                    <p class="card-text">
-                        write some thin about desination wedding
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
+<p class="text-muted">
+Creating unforgettable moments with creativity, elegance, and perfection.
+</p>
 
 </div>
+
+<div class="row g-4">
+
+<!-- Card 1 -->
+<div class="col-12 col-sm-6 col-lg-3">
+
+<div class="card service-card h-100">
+
+<div class="card-image">
+
+<img src="https://images.unsplash.com/photo-1653821355736-0c2598d0a63e?fm=jpg&q=60&w=1200" class="card-img-top">
+
+</div>
+
+<div class="card-body d-flex flex-column">
+
+<h5 class="fw-bold">Wedding Planning</h5>
+
+<p class="text-muted flex-grow-1">
+Elegant wedding planning with premium decoration, catering, photography and unforgettable memories.
+</p>
+
+<button class="btn btn-primary rounded-pill mt-auto"
+data-bs-toggle="modal"
+data-bs-target="#weddingModal">
+
+Learn More
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Card 2 -->
+
+<div class="col-12 col-sm-6 col-lg-3">
+
+<div class="card service-card h-100">
+
+<div class="card-image">
+
+<img src="https://images.unsplash.com/photo-1469371670807-013ccf25f16a?fm=jpg&q=60&w=1200">
+
+</div>
+
+<div class="card-body d-flex flex-column">
+
+<h5 class="fw-bold">Corporate Events</h5>
+
+<p class="text-muted flex-grow-1">
+
+Professional conferences, seminars, product launches and annual business meetings.
+
+</p>
+
+<button class="btn btn-primary rounded-pill mt-auto"
+data-bs-toggle="modal"
+data-bs-target="#corporateModal">
+
+Learn More
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Card 3 -->
+
+<div class="col-12 col-sm-6 col-lg-3">
+
+<div class="card service-card h-100">
+
+<div class="card-image">
+
+<img src="https://cdn0.weddingwire.in/vendor/4706/3_2/640/jpg/file-1774371379420-15-494706-177437138132379_15_494706-177571969417053.jpeg">
+
+</div>
+
+<div class="card-body d-flex flex-column">
+
+<h5 class="fw-bold">Birthday Party</h5>
+
+<p class="text-muted flex-grow-1">
+
+Creative birthday themes, decorations, entertainment and complete event management.
+
+</p>
+
+<button class="btn btn-primary rounded-pill mt-auto"
+data-bs-toggle="modal"
+data-bs-target="#birthdayModal">
+
+Learn More
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Card 4 -->
+
+<div class="col-12 col-sm-6 col-lg-3">
+
+<div class="card service-card h-100">
+
+<div class="card-image">
+
+<img src="https://content.jdmagicbox.com/comp/kolhapur/b2/0231px231.x231.180709131103.s4b2/catalogue/artistic-event-planner-kadamwadi-kolhapur-event-organisers-stc3tktrft.jpg">
+
+</div>
+
+<div class="card-body d-flex flex-column">
+
+<h5 class="fw-bold">Destination Wedding</h5>
+
+<p class="text-muted flex-grow-1">
+
+Celebrate your dream wedding at beautiful beaches, palaces and luxury resorts.
+
+</p>
+
+<button class="btn btn-primary rounded-pill mt-auto"
+data-bs-toggle="modal"
+data-bs-target="#destinationModal">
+
+Learn More
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Card 5 -->
+
+<div class="col-12 col-sm-6 col-lg-3">
+
+<div class="card service-card h-100">
+
+<div class="card-image">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMm295rEzUhAHnPMPoRnry842pEpinf3K5ZIlbf1aHilbeiiuelwL7Hbo&s=10">
+
+</div>
+
+<div class="card-body d-flex flex-column">
+
+<h5 class="fw-bold">Engagement Ceremony</h5>
+
+<p class="text-muted flex-grow-1">
+
+Beautiful engagement decorations with elegant stage setup and photography.
+
+</p>
+
+<button class="btn btn-primary rounded-pill mt-auto">
+
+Learn More
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Card 6 -->
+
+<div class="col-12 col-sm-6 col-lg-3">
+
+<div class="card service-card h-100">
+
+<div class="card-image">
+
+<img src="https://cdn0.weddingwire.in/vendor/6607/3_2/960/jpeg/aashirwaad-events2_15_236607-1564555573.jpeg">
+
+</div>
+
+<div class="card-body d-flex flex-column">
+
+<h5 class="fw-bold">Music & DJ Night</h5>
+
+<p class="text-muted flex-grow-1">
+
+High-energy DJ nights with professional sound systems and lighting.
+
+</p>
+
+<button class="btn btn-primary rounded-pill mt-auto">
+
+Learn More
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Card 7 -->
+
+<div class="col-12 col-sm-6 col-lg-3">
+
+<div class="card service-card h-100">
+
+<div class="card-image">
+
+<img src="https://img.magnific.com/free-photo/decorated-banquet-hall-with-flowers_8353-10058.jpg?semt=ais_hybrid&w=740&q=80">
+
+</div>
+
+<div class="card-body d-flex flex-column">
+
+<h5 class="fw-bold">Reception Party</h5>
+
+<p class="text-muted flex-grow-1">
+
+Luxury reception planning with floral decoration and premium dining.
+
+</p>
+
+<button class="btn btn-primary rounded-pill mt-auto">
+
+Learn More
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Card 8 -->
+
+<div class="col-12 col-sm-6 col-lg-3">
+
+<div class="card service-card h-100">
+
+<div class="card-image">
+
+<img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?fm=jpg&q=60&w=1200">
+
+</div>
+
+<div class="card-body d-flex flex-column">
+
+<h5 class="fw-bold">Anniversary Celebration</h5>
+
+<p class="text-muted flex-grow-1">
+
+Celebrate your special milestones with elegant themes and unforgettable moments.
+
+</p>
+
+<button class="btn btn-primary rounded-pill mt-auto">
+
+Learn More
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
 
 <footer class="bg-dark text-white text-center py-3">
     <p>&copy; 2024 Event Planning. All rights reserved.</p>
