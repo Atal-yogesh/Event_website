@@ -140,3 +140,34 @@ section{
 overflow:hidden;
 
 }
+.modal-content{
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.modal img{
+    transition:0.5s;
+}
+
+.modal img:hover{
+    transform:scale(1.03);
+}
+
+.modal-body h2{
+    color:#0d6efd;
+}
+
+.list-group-item{
+    border:none;
+    padding:12px 0;
+}
+
+.modal-footer{
+    border-top:none;
+    padding:20px;
+}
+
+.modal .btn{
+    border-radius:50px;
+    padding:10px 25px;
+}
