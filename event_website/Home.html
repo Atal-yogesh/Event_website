@@ -1,1187 +1,850 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="Home.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-</head>
-<body>
-    
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-    <div class="container">
-
+    <link rel="stylesheet" href="Home.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
         <!-- Logo -->
         <a class="navbar-brand d-flex align-items-center" href="#">
-            <img src="https://thumbs.dreamstime.com/b/creative-simple-dragons-silhouettes-logo-stylized-vector-illustrations-simple-dragons-silhouettes-logo-130475058.jpg"
-                alt="Logo"
-                class="rounded-circle me-2"
-                style="width:50px; height:50px; object-fit:cover;">
-            <span class="fw-bold fs-4">Dragon</span>
+          <img
+            src="https://thumbs.dreamstime.com/b/creative-simple-dragons-silhouettes-logo-stylized-vector-illustrations-simple-dragons-silhouettes-logo-130475058.jpg"
+            alt="Logo"
+            class="rounded-circle me-2"
+            style="width: 50px; height: 50px; object-fit: cover"
+          />
+          <span class="fw-bold fs-4">Dragon</span>
         </a>
 
         <!-- Toggle Button -->
-        <button class="navbar-toggler border-0 shadow-none"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent">
-
-            <span class="navbar-toggler-icon"></span>
+        <button
+          class="navbar-toggler border-0 shadow-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+        >
+          <span class="navbar-toggler-icon"></span>
         </button>
 
         <!-- Navbar Links -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-3 mb-lg-0 gap-lg-4 text-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
 
-            <ul class="navbar-nav mx-auto mb-3 mb-lg-0 gap-lg-4 text-center">
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
 
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Home</a>
-                </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Packages</a>
+            </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Packages</a>
-                </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Gallery</a>
-                </li>
+          <!-- Buttons -->
+          <div class="d-flex flex-column flex-lg-row gap-2">
+            <a href="./login.html" class="btn btn-light"> Log In </a>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
+            <a href="./signup.html" class="btn btn-outline-light"> Sign Up </a>
+          </div>
+        </div>
+      </div>
+    </nav>
 
-            </ul>
+    <!-- ===================== EVENT SERVICES ===================== -->
 
-            <!-- Buttons -->
-            <div class="d-flex flex-column flex-lg-row gap-2">
+    <section class="py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h1 class="fw-bold">Our Event Services</h1>
 
-                <a href="./login.html" class="btn btn-light">
-                    Log In
-                </a>
+          <p class="text-muted">
+            Creating unforgettable moments with creativity, elegance, and
+            perfection.
+          </p>
+        </div>
 
-                <a href="./signup.html" class="btn btn-outline-light">
-                    Sign Up
-                </a>
+        <div class="row g-4">
+          <!-- Card 1 -->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="card service-card h-100">
+              <div class="card-image">
+                <img
+                  src="https://images.unsplash.com/photo-1653821355736-0c2598d0a63e?fm=jpg&q=60&w=1200"
+                  class="card-img-top"
+                />
+              </div>
 
+              <div class="card-body d-flex flex-column">
+                <h5 class="fw-bold">Wedding Planning</h5>
+
+                <p class="text-muted flex-grow-1">
+                  Elegant wedding planning with premium decoration, catering,
+                  photography and unforgettable memories.
+                </p>
+
+                <button
+                  class="btn btn-primary rounded-pill mt-auto"
+                  data-bs-toggle="modal"
+                  data-bs-target="#weddingModal"
+                >
+                  Learn More
+                </button>
+              </div>
             </div>
-
-        </div>
-
-    </div>
-</nav>
-
-
-
-<!-- ===================== EVENT SERVICES ===================== -->
-
-<section class="py-5 bg-light">
-
-<div class="container">
-
-<div class="text-center mb-5">
-
-<h1 class="fw-bold">Our Event Services</h1>
-
-<p class="text-muted">
-Creating unforgettable moments with creativity, elegance, and perfection.
-</p>
-
-</div>
-
-<div class="row g-4">
-
-<!-- Card 1 -->
-<div class="col-12 col-sm-6 col-lg-3">
-
-<div class="card service-card h-100">
-
-<div class="card-image">
-
-<img src="https://images.unsplash.com/photo-1653821355736-0c2598d0a63e?fm=jpg&q=60&w=1200" class="card-img-top">
-
-</div>
-
-<div class="card-body d-flex flex-column">
-
-<h5 class="fw-bold">Wedding Planning</h5>
-
-<p class="text-muted flex-grow-1">
-Elegant wedding planning with premium decoration, catering, photography and unforgettable memories.
-</p>
-
-<button class="btn btn-primary rounded-pill mt-auto"
-data-bs-toggle="modal"
-data-bs-target="#weddingModal">
-
-Learn More
-
-</button>
-
-</div>
-
-</div>
-
-</div>
-
-<!-- Card 2 -->
-
-<div class="col-12 col-sm-6 col-lg-3">
-
-<div class="card service-card h-100">
-
-<div class="card-image">
-
-<img src="https://images.unsplash.com/photo-1469371670807-013ccf25f16a?fm=jpg&q=60&w=1200">
-
-</div>
-
-<div class="card-body d-flex flex-column">
-
-<h5 class="fw-bold">Corporate Events</h5>
-
-<p class="text-muted flex-grow-1">
-
-Professional conferences, seminars, product launches and annual business meetings.
-
-</p>
-
-<button class="btn btn-primary rounded-pill mt-auto"
-data-bs-toggle="modal"
-data-bs-target="#corporateModal">
-
-Learn More
-
-</button>
-
-</div>
-
-</div>
-
-</div>
-
-<!-- Card 3 -->
-
-<div class="col-12 col-sm-6 col-lg-3">
-
-<div class="card service-card h-100">
-
-<div class="card-image">
-
-<img src="https://cdn0.weddingwire.in/vendor/4706/3_2/640/jpg/file-1774371379420-15-494706-177437138132379_15_494706-177571969417053.jpeg">
-
-</div>
-
-<div class="card-body d-flex flex-column">
-
-<h5 class="fw-bold">Birthday Party</h5>
-
-<p class="text-muted flex-grow-1">
-
-Creative birthday themes, decorations, entertainment and complete event management.
-
-</p>
-
-<button class="btn btn-primary rounded-pill mt-auto"
-data-bs-toggle="modal"
-data-bs-target="#birthdayModal">
-
-Learn More
-
-</button>
-
-</div>
-
-</div>
-
-</div>
-
-<!-- Card 4 -->
-
-<div class="col-12 col-sm-6 col-lg-3">
-
-<div class="card service-card h-100">
-
-<div class="card-image">
-
-<img src="https://content.jdmagicbox.com/comp/kolhapur/b2/0231px231.x231.180709131103.s4b2/catalogue/artistic-event-planner-kadamwadi-kolhapur-event-organisers-stc3tktrft.jpg">
-
-</div>
-
-<div class="card-body d-flex flex-column">
-
-<h5 class="fw-bold">Destination Wedding</h5>
-
-<p class="text-muted flex-grow-1">
-
-Celebrate your dream wedding at beautiful beaches, palaces and luxury resorts.
-
-</p>
-
-<button class="btn btn-primary rounded-pill mt-auto"
-data-bs-toggle="modal"
-data-bs-target="#destinationModal">
-
-Learn More
-
-</button>
-
-</div>
-
-</div>
-
-</div>
-
-<!-- Card 5 -->
-
-<div class="col-12 col-sm-6 col-lg-3">
-
-<div class="card service-card h-100">
-
-<div class="card-image">
-
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMm295rEzUhAHnPMPoRnry842pEpinf3K5ZIlbf1aHilbeiiuelwL7Hbo&s=10">
-
-</div>
-
-<div class="card-body d-flex flex-column">
-
-<h5 class="fw-bold">Engagement Ceremony</h5>
-
-<p class="text-muted flex-grow-1">
-
-Beautiful engagement decorations with elegant stage setup and photography.
-
-</p>
-
-<button class="btn btn-primary rounded-pill mt-auto"
-data-bs-toggle="modal"
-data-bs-target="#engagementModal">
-
-Learn More
-
-</button>
-
-</div>
-
-</div>
-
-</div>
-
-<!-- Card 6 -->
-
-<div class="col-12 col-sm-6 col-lg-3">
-
-<div class="card service-card h-100">
-
-<div class="card-image">
-
-<img src="https://cdn0.weddingwire.in/vendor/6607/3_2/960/jpeg/aashirwaad-events2_15_236607-1564555573.jpeg">
-
-</div>
-
-<div class="card-body d-flex flex-column">
-
-<h5 class="fw-bold">Music & DJ Night</h5>
-
-<p class="text-muted flex-grow-1">
-
-High-energy DJ nights with professional sound systems and lighting.
-
-</p>
-
-<button class="btn btn-primary rounded-pill mt-auto"
-data-bs-toggle="modal"
-data-bs-target="#djModal">
-
-Learn More
-
-</button>
-
-</div>
-
-</div>
-
-</div>
-
-<!-- Card 7 -->
-
-<div class="col-12 col-sm-6 col-lg-3">
-
-<div class="card service-card h-100">
-
-<div class="card-image">
-
-<img src="https://img.magnific.com/free-photo/decorated-banquet-hall-with-flowers_8353-10058.jpg?semt=ais_hybrid&w=740&q=80">
-
-</div>
-
-<div class="card-body d-flex flex-column">
-
-<h5 class="fw-bold">Reception Party</h5>
-
-<p class="text-muted flex-grow-1">
-
-Luxury reception planning with floral decoration and premium dining.
-
-</p>
-
-<button class="btn btn-primary rounded-pill mt-auto"
-data-bs-toggle="modal"
-data-bs-target="#receptionModal">
-
-Learn More
-
-</button>
-
-</div>
-
-</div>
-
-</div>
-
-<!-- Card 8 -->
-
-<div class="col-12 col-sm-6 col-lg-3">
-
-<div class="card service-card h-100">
-
-<div class="card-image">
-
-<img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?fm=jpg&q=60&w=1200">
-
-</div>
-
-<div class="card-body d-flex flex-column">
-
-<h5 class="fw-bold">Anniversary Celebration</h5>
-
-<p class="text-muted flex-grow-1">
-
-Celebrate your special milestones with elegant themes and unforgettable moments.
-
-</p>
-
-<button class="btn btn-primary rounded-pill mt-auto"
-data-bs-toggle="modal"
-data-bs-target="#anniversaryModal">
-
-Learn More
-
-</button>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ================= Wedding Modal ================= -->
-
-<div class="modal fade" id="weddingModal" tabindex="-1">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content border-0 shadow-lg">
-
-      <img src="https://images.unsplash.com/photo-1653821355736-0c2598d0a63e?fm=jpg&q=60&w=1200"
-        class="img-fluid rounded-top" style="height:300px; object-fit:cover;">
-
-      <div class="modal-body p-4">
-
-        <h2 class="fw-bold mb-3">💍 Wedding Planning</h2>
-
-        <p class="text-muted">
-          We create unforgettable wedding experiences with elegant decoration,
-          premium catering, luxury venues, professional photography,
-          entertainment, and complete event coordination.
-        </p>
-
-        <h5 class="mt-4">Our Services</h5>
-
-        <div class="row">
-
-          <div class="col-md-6">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">✔ Venue Selection</li>
-              <li class="list-group-item">✔ Floral Decoration</li>
-              <li class="list-group-item">✔ Photography</li>
-            </ul>
           </div>
 
-          <div class="col-md-6">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">✔ Luxury Catering</li>
-              <li class="list-group-item">✔ Live Music & DJ</li>
-              <li class="list-group-item">✔ Guest Management</li>
-            </ul>
+          <!-- Card 2 -->
+
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="card service-card h-100">
+              <div class="card-image">
+                <img
+                  src="https://images.unsplash.com/photo-1469371670807-013ccf25f16a?fm=jpg&q=60&w=1200"
+                />
+              </div>
+
+              <div class="card-body d-flex flex-column">
+                <h5 class="fw-bold">Corporate Events</h5>
+
+                <p class="text-muted flex-grow-1">
+                  Professional conferences, seminars, product launches and
+                  annual business meetings.
+                </p>
+
+                <button
+                  class="btn btn-primary rounded-pill mt-auto"
+                  data-bs-toggle="modal"
+                  data-bs-target="#corporateModal"
+                >
+                  Learn More
+                </button>
+              </div>
+            </div>
           </div>
 
+          <!-- Card 3 -->
+
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="card service-card h-100">
+              <div class="card-image">
+                <img
+                  src="https://cdn0.weddingwire.in/vendor/4706/3_2/640/jpg/file-1774371379420-15-494706-177437138132379_15_494706-177571969417053.jpeg"
+                />
+              </div>
+
+              <div class="card-body d-flex flex-column">
+                <h5 class="fw-bold">Birthday Party</h5>
+
+                <p class="text-muted flex-grow-1">
+                  Creative birthday themes, decorations, entertainment and
+                  complete event management.
+                </p>
+
+                <button
+                  class="btn btn-primary rounded-pill mt-auto"
+                  data-bs-toggle="modal"
+                  data-bs-target="#birthdayModal"
+                >
+                  Learn More
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="card service-card h-100">
+              <div class="card-image">
+                <img
+                  src="https://content.jdmagicbox.com/comp/kolhapur/b2/0231px231.x231.180709131103.s4b2/catalogue/artistic-event-planner-kadamwadi-kolhapur-event-organisers-stc3tktrft.jpg"
+                />
+              </div>
+
+              <div class="card-body d-flex flex-column">
+                <h5 class="fw-bold">Destination Wedding</h5>
+
+                <p class="text-muted flex-grow-1">
+                  Celebrate your dream wedding at beautiful beaches, palaces and
+                  luxury resorts.
+                </p>
+
+                <button
+                  class="btn btn-primary rounded-pill mt-auto"
+                  data-bs-toggle="modal"
+                  data-bs-target="#destinationModal"
+                >
+                  Learn More
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="card service-card h-100">
+              <div class="card-image">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMm295rEzUhAHnPMPoRnry842pEpinf3K5ZIlbf1aHilbeiiuelwL7Hbo&s=10"
+                />
+              </div>
+
+              <div class="card-body d-flex flex-column">
+                <h5 class="fw-bold">Engagement Ceremony</h5>
+
+                <p class="text-muted flex-grow-1">
+                  Beautiful engagement decorations with elegant stage setup and
+                  photography.
+                </p>
+
+                <button
+                  class="btn btn-primary rounded-pill mt-auto"
+                  data-bs-toggle="modal"
+                  data-bs-target="#engagementModal"
+                >
+                  Learn More
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="card service-card h-100">
+              <div class="card-image">
+                <img
+                  src="https://cdn0.weddingwire.in/vendor/6607/3_2/960/jpeg/aashirwaad-events2_15_236607-1564555573.jpeg"
+                />
+              </div>
+
+              <div class="card-body d-flex flex-column">
+                <h5 class="fw-bold">Music & DJ Night</h5>
+
+                <p class="text-muted flex-grow-1">
+                  High-energy DJ nights with professional sound systems and
+                  lighting.
+                </p>
+
+                <button
+                  class="btn btn-primary rounded-pill mt-auto"
+                  data-bs-toggle="modal"
+                  data-bs-target="#djModal"
+                >
+                  Learn More
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 7 -->
+
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="card service-card h-100">
+              <div class="card-image">
+                <img
+                  src="https://img.magnific.com/free-photo/decorated-banquet-hall-with-flowers_8353-10058.jpg?semt=ais_hybrid&w=740&q=80"
+                />
+              </div>
+
+              <div class="card-body d-flex flex-column">
+                <h5 class="fw-bold">Reception Party</h5>
+
+                <p class="text-muted flex-grow-1">
+                  Luxury reception planning with floral decoration and premium
+                  dining.
+                </p>
+
+                <button
+                  class="btn btn-primary rounded-pill mt-auto"
+                  data-bs-toggle="modal"
+                  data-bs-target="#receptionModal"
+                >
+                  Learn More
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 8 -->
+
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="card service-card h-100">
+              <div class="card-image">
+                <img
+                  src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?fm=jpg&q=60&w=1200"
+                />
+              </div>
+
+              <div class="card-body d-flex flex-column">
+                <h5 class="fw-bold">Anniversary Celebration</h5>
+
+                <p class="text-muted flex-grow-1">
+                  Celebrate your special milestones with elegant themes and
+                  unforgettable moments.
+                </p>
+
+                <button
+                  class="btn btn-primary rounded-pill mt-auto"
+                  data-bs-toggle="modal"
+                  data-bs-target="#anniversaryModal"
+                >
+                  Learn More
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
-
       </div>
+    </section>
 
-      <div class="modal-footer">
+    <!-- ================= Wedding Modal ================= -->
 
-        <button class="btn btn-outline-secondary" data-bs-dismiss="modal">
-          Close
-        </button>
+    <div class="modal fade" id="weddingModal" tabindex="-1">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg">
+          <img
+            src="https://images.unsplash.com/photo-1653821355736-0c2598d0a63e?fm=jpg&q=60&w=1200"
+            class="img-fluid rounded-top"
+            style="height: 300px; object-fit: cover"
+          />
 
-        <button class="btn btn-primary">
-          Book Now
-        </button>
+          <div class="modal-body p-4">
+            <h2 class="fw-bold mb-3">💍 Wedding Planning</h2>
 
+            <p class="text-muted">
+              We create unforgettable wedding experiences with elegant
+              decoration, premium catering, luxury venues, professional
+              photography, entertainment, and complete event coordination.
+            </p>
+
+            <h5 class="mt-4">Our Services</h5>
+
+            <div class="row">
+              <div class="col-md-6">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">✔ Venue Selection</li>
+                  <li class="list-group-item">✔ Floral Decoration</li>
+                  <li class="list-group-item">✔ Photography</li>
+                </ul>
+              </div>
+
+              <div class="col-md-6">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">✔ Luxury Catering</li>
+                  <li class="list-group-item">✔ Live Music & DJ</li>
+                  <li class="list-group-item">✔ Guest Management</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button class="btn btn-outline-secondary" data-bs-dismiss="modal">
+              Close
+            </button>
+
+            <button class="btn btn-primary">Book Now</button>
+          </div>
+        </div>
       </div>
-
     </div>
-  </div>
-</div>
 
-<div class="modal fade" id="corporateModal" tabindex="-1">
-
-<div class="modal-dialog modal-lg modal-dialog-centered">
-
-<div class="modal-content border-0 shadow-lg">
-
-<img src="https://images.unsplash.com/photo-1469371670807-013ccf25f16a?fm=jpg&q=60&w=1200"
-class="img-fluid rounded-top"
-style="height:300px;object-fit:cover;">
-
-<div class="modal-body p-4">
-
-<h2 class="fw-bold">
-Corporate Events
-</h2>
-
-<p class="text-muted">
-
-From seminars and conferences to annual meetings and product launches,
-we manage every detail professionally.
-
-</p>
-
-<div class="row mt-4">
-
-<div class="col-md-6">
-
-<ul class="list-group list-group-flush">
-
-<li class="list-group-item">✔ Conference Setup</li>
-
-<li class="list-group-item">✔ LED Screens</li>
-
-<li class="list-group-item">✔ Sound Systems</li>
-
-</ul>
-
-</div>
-
-<div class="col-md-6">
-
-<ul class="list-group list-group-flush">
-
-<li class="list-group-item">✔ Registration Desk</li>
-
-<li class="list-group-item">✔ Stage Design</li>
-
-<li class="list-group-item">✔ Event Branding</li>
-
-</ul>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="modal-footer">
-
-<button class="btn btn-outline-secondary"
-data-bs-dismiss="modal">
-
-Close
-
-</button>
-
-<button class="btn btn-primary">
-
-Book Event
-
-</button>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="modal fade" id="birthdayModal" tabindex="-1">
-
-<div class="modal-dialog modal-lg modal-dialog-centered">
-
-<div class="modal-content border-0 shadow-lg">
-
-<img src="https://cdn0.weddingwire.in/vendor/4706/3_2/640/jpg/file-1774371379420-15-494706-177437138132379_15_494706-177571969417053.jpeg"
-class="img-fluid rounded-top"
-style="height:300px;object-fit:cover;">
-
-<div class="modal-body p-4">
-
-<h2 class="fw-bold">
-
-🎂 Birthday Celebration
-
-</h2>
-
-<p class="text-muted">
-
-Celebrate birthdays with exciting themes, balloon decoration,
-live entertainment, customized cakes and memorable surprises.
-
-</p>
-
-<div class="row">
-
-<div class="col-md-6">
-
-<ul class="list-group list-group-flush">
-
-<li class="list-group-item">✔ Theme Decoration</li>
-
-<li class="list-group-item">✔ Balloon Art</li>
-
-<li class="list-group-item">✔ Customized Cake</li>
-
-</ul>
-
-</div>
-
-<div class="col-md-6">
-
-<ul class="list-group list-group-flush">
-
-<li class="list-group-item">✔ Magic Show</li>
-
-<li class="list-group-item">✔ DJ Music</li>
-
-<li class="list-group-item">✔ Photography</li>
-
-</ul>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="modal-footer">
-
-<button class="btn btn-outline-secondary"
-data-bs-dismiss="modal">
-
-Close
-
-</button>
-
-<button class="btn btn-primary">
-
-Book Party
-
-</button>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="modal fade" id="destinationModal" tabindex="-1">
-
-<div class="modal-dialog modal-lg modal-dialog-centered">
-
-<div class="modal-content border-0 shadow-lg">
-
-<img src="https://content.jdmagicbox.com/comp/kolhapur/b2/0231px231.x231.180709131103.s4b2/catalogue/artistic-event-planner-kadamwadi-kolhapur-event-organisers-stc3tktrft.jpg"
-class="img-fluid rounded-top"
-style="height:300px;object-fit:cover;">
-
-<div class="modal-body p-4">
-
-<h2 class="fw-bold">
-
-🌴 Destination Wedding
-
-</h2>
-
-<p class="text-muted">
-
-Exchange your vows at breathtaking destinations.
-We organize beach weddings, palace weddings,
-mountain resorts and luxury venues with complete planning.
-
-</p>
-
-<div class="row">
-
-<div class="col-md-6">
-
-<ul class="list-group list-group-flush">
-
-<li class="list-group-item">✔ Luxury Resorts</li>
-
-<li class="list-group-item">✔ Beach Weddings</li>
-
-<li class="list-group-item">✔ Palace Decoration</li>
-
-</ul>
-
-</div>
-
-<div class="col-md-6">
-
-<ul class="list-group list-group-flush">
-
-<li class="list-group-item">✔ Travel Arrangement</li>
-
-<li class="list-group-item">✔ Guest Accommodation</li>
-
-<li class="list-group-item">✔ Premium Catering</li>
-
-</ul>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="modal-footer">
-
-<button class="btn btn-outline-secondary"
-data-bs-dismiss="modal">
-
-Close
-
-</button>
-
-<button class="btn btn-primary">
-
-Book Destination Wedding
-
-</button>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<!-- ================= Engagement Modal ================= -->
-
-<div class="modal fade" id="engagementModal" tabindex="-1">
-
-<div class="modal-dialog modal-lg modal-dialog-centered">
-
-<div class="modal-content border-0 shadow-lg">
-
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMm295rEzUhAHnPMPoRnry842pEpinf3K5ZIlbf1aHilbeiiuelwL7Hbo&s=10"
-class="img-fluid rounded-top"
-style="height:300px; object-fit:cover; width:100%;">
-
-<div class="modal-body p-4">
-
-<h2 class="fw-bold text-primary">💍 Engagement Ceremony</h2>
-
-<p class="text-muted">
-Celebrate your engagement with elegant decorations, floral themes,
-professional photography, live music, and unforgettable memories.
-</p>
-
-<div class="row">
-
-<div class="col-md-6">
-
-<ul class="list-group list-group-flush">
-
-<li class="list-group-item">✔ Ring Ceremony Setup</li>
-
-<li class="list-group-item">✔ Stage Decoration</li>
-
-<li class="list-group-item">✔ Floral Design</li>
-
-</ul>
-
-</div>
-
-<div class="col-md-6">
-
-<ul class="list-group list-group-flush">
-
-<li class="list-group-item">✔ Photography</li>
-
-<li class="list-group-item">✔ Catering</li>
-
-<li class="list-group-item">✔ Live Music</li>
-
-</ul>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="modal-footer">
-
-<button class="btn btn-outline-secondary"
-data-bs-dismiss="modal">
-
-Close
-
-</button>
-
-<button class="btn btn-primary">
-
-Book Now
-
-</button>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<!-- ================= Engagement Modal ================= -->
-
-<div class="modal fade" id="engagementModal" tabindex="-1">
-
-<div class="modal-dialog modal-lg modal-dialog-centered">
-
-<div class="modal-content border-0 shadow-lg">
-
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMm295rEzUhAHnPMPoRnry842pEpinf3K5ZIlbf1aHilbeiiuelwL7Hbo&s=10"
-class="img-fluid rounded-top"
-style="height:300px; object-fit:cover; width:100%;">
-
-<div class="modal-body p-4">
-
-<h2 class="fw-bold text-primary">💍 Engagement Ceremony</h2>
-
-<p class="text-muted">
-Celebrate your engagement with elegant decorations, floral themes,
-professional photography, live music, and unforgettable memories.
-</p>
-
-<div class="row">
-
-<div class="col-md-6">
-
-<ul class="list-group list-group-flush">
-
-<li class="list-group-item">✔ Ring Ceremony Setup</li>
-
-<li class="list-group-item">✔ Stage Decoration</li>
-
-<li class="list-group-item">✔ Floral Design</li>
-
-</ul>
-
-</div>
-
-<div class="col-md-6">
-
-<ul class="list-group list-group-flush">
-
-<li class="list-group-item">✔ Photography</li>
-
-<li class="list-group-item">✔ Catering</li>
-
-<li class="list-group-item">✔ Live Music</li>
-
-</ul>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="modal-footer">
-
-<button class="btn btn-outline-secondary"
-data-bs-dismiss="modal">
-
-Close
-
-</button>
-
-<button class="btn btn-primary">
-
-Book Now
-
-</button>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="modal fade" id="djModal" tabindex="-1">
-
-<div class="modal-dialog modal-lg modal-dialog-centered">
-
-<div class="modal-content border-0 shadow-lg">
-
-<img src="https://cdn0.weddingwire.in/vendor/6607/3_2/960/jpeg/aashirwaad-events2_15_236607-1564555573.jpeg"
-class="img-fluid rounded-top"
-style="height:300px; object-fit:cover; width:100%;">
-
-<div class="modal-body p-4">
-
-<h2 class="fw-bold text-primary">🎧 Music & DJ Night</h2>
-
-<p class="text-muted">
-
-Bring energy to your event with top DJs, amazing lighting,
-powerful sound systems and unforgettable entertainment.
-
-</p>
-
-<div class="row">
-
-<div class="col-md-6">
-
-<ul class="list-group list-group-flush">
-
-<li class="list-group-item">✔ Professional DJ</li>
-
-<li class="list-group-item">✔ Dance Floor</li>
-
-<li class="list-group-item">✔ LED Lighting</li>
-
-</ul>
-
-</div>
-
-<div class="col-md-6">
-
-<ul class="list-group list-group-flush">
-
-<li class="list-group-item">✔ Live Performances</li>
-
-<li class="list-group-item">✔ Sound System</li>
-
-<li class="list-group-item">✔ Smoke Effects</li>
-
-</ul>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="modal-footer">
-
-<button class="btn btn-outline-secondary"
-data-bs-dismiss="modal">
-
-Close
-
-</button>
-
-<button class="btn btn-primary">
-
-Book DJ Night
-
-</button>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="modal fade" id="receptionModal" tabindex="-1">
-
-<div class="modal-dialog modal-lg modal-dialog-centered">
-
-<div class="modal-content border-0 shadow-lg">
-
-<img src="https://img.magnific.com/free-photo/decorated-banquet-hall-with-flowers_8353-10058.jpg?semt=ais_hybrid&w=740&q=80"
-class="img-fluid rounded-top"
-style="height:300px; object-fit:cover; width:100%;">
-
-<div class="modal-body p-4">
-
-<h2 class="fw-bold text-primary">
-
-🎉 Reception Celebration
-
-</h2>
-
-<p class="text-muted">
-
-Celebrate your reception in style with premium decoration,
-luxury dining, entertainment and professional event coordination.
-
-</p>
-
-<div class="row">
-
-<div class="col-md-6">
-
-<ul class="list-group list-group-flush">
-
-<li class="list-group-item">✔ Luxury Decoration</li>
-
-<li class="list-group-item">✔ Live Band</li>
-
-<li class="list-group-item">✔ Catering</li>
-
-</ul>
-
-</div>
-
-<div class="col-md-6">
-
-<ul class="list-group list-group-flush">
-
-<li class="list-group-item">✔ Guest Management</li>
-
-<li class="list-group-item">✔ Photography</li>
-
-<li class="list-group-item">✔ Lighting</li>
-
-</ul>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="modal-footer">
-
-<button class="btn btn-outline-secondary"
-data-bs-dismiss="modal">
-
-Close
-
-</button>
-
-<button class="btn btn-primary">
-
-Book Reception
-
-</button>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="modal fade" id="receptionModal" tabindex="-1">
-
-<div class="modal-dialog modal-lg modal-dialog-centered">
-
-<div class="modal-content border-0 shadow-lg">
-
-<img src="https://img.magnific.com/free-photo/decorated-banquet-hall-with-flowers_8353-10058.jpg?semt=ais_hybrid&w=740&q=80"
-class="img-fluid rounded-top"
-style="height:300px; object-fit:cover; width:100%;">
-
-<div class="modal-body p-4">
-
-<h2 class="fw-bold text-primary">
-
-🎉 Reception Celebration
-
-</h2>
-
-<p class="text-muted">
-
-Celebrate your reception in style with premium decoration,
-luxury dining, entertainment and professional event coordination.
-
-</p>
-
-<div class="row">
-
-<div class="col-md-6">
-
-<ul class="list-group list-group-flush">
-
-<li class="list-group-item">✔ Luxury Decoration</li>
-
-<li class="list-group-item">✔ Live Band</li>
-
-<li class="list-group-item">✔ Catering</li>
-
-</ul>
-
-</div>
-
-<div class="col-md-6">
-
-<ul class="list-group list-group-flush">
-
-<li class="list-group-item">✔ Guest Management</li>
-
-<li class="list-group-item">✔ Photography</li>
-
-<li class="list-group-item">✔ Lighting</li>
-
-</ul>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="modal-footer">
-
-<button class="btn btn-outline-secondary"
-data-bs-dismiss="modal">
-
-Close
-
-</button>
-
-<button class="btn btn-primary">
-
-Book Reception
-
-</button>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="modal fade" id="anniversaryModal" tabindex="-1">
-
-<div class="modal-dialog modal-lg modal-dialog-centered">
-
-<div class="modal-content border-0 shadow-lg">
-
-<img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?fm=jpg&q=60&w=1200"
-class="img-fluid rounded-top"
-style="height:300px; object-fit:cover; width:100%;">
-
-<div class="modal-body p-4">
-
-<h2 class="fw-bold text-primary">
-
-❤️ Anniversary Celebration
-
-</h2>
-
-<p class="text-muted">
-
-Celebrate your beautiful journey together with romantic decorations,
-music, candlelight dinners and unforgettable memories.
-
-</p>
-
-<div class="row">
-
-<div class="col-md-6">
-
-<ul class="list-group list-group-flush">
-
-<li class="list-group-item">✔ Romantic Decoration</li>
-
-<li class="list-group-item">✔ Candlelight Dinner</li>
-
-<li class="list-group-item">✔ Live Music</li>
-
-</ul>
-
-</div>
-
-<div class="col-md-6">
-
-<ul class="list-group list-group-flush">
-
-<li class="list-group-item">✔ Photography</li>
-
-<li class="list-group-item">✔ Customized Cake</li>
-
-<li class="list-group-item">✔ Fireworks</li>
-
-</ul>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="modal-footer">
-
-<button class="btn btn-outline-secondary"
-data-bs-dismiss="modal">
-
-Close
-
-</button>
-
-<button class="btn btn-primary">
-
-Book Celebration
-
-</button>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-
-<footer class="bg-dark text-white text-center py-3">
-    <p>&copy; 2024 Event Planning. All rights reserved.</p>
-    <p>Contact us at info@eventplanning.com</p>
-    <p>phone: 123-456-7890</p>
-    <p>Follow us on social media: 
-        <a href="#" class="text-white">Facebook</a> | 
-        <a href="#" class="text-white">Twitter</a> | 
+    <div class="modal fade" id="corporateModal" tabindex="-1">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg">
+          <img
+            src="https://images.unsplash.com/photo-1469371670807-013ccf25f16a?fm=jpg&q=60&w=1200"
+            class="img-fluid rounded-top"
+            style="height: 300px; object-fit: cover"
+          />
+
+          <div class="modal-body p-4">
+            <h2 class="fw-bold">Corporate Events</h2>
+
+            <p class="text-muted">
+              From seminars and conferences to annual meetings and product
+              launches, we manage every detail professionally.
+            </p>
+
+            <div class="row mt-4">
+              <div class="col-md-6">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">✔ Conference Setup</li>
+
+                  <li class="list-group-item">✔ LED Screens</li>
+
+                  <li class="list-group-item">✔ Sound Systems</li>
+                </ul>
+              </div>
+
+              <div class="col-md-6">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">✔ Registration Desk</li>
+
+                  <li class="list-group-item">✔ Stage Design</li>
+
+                  <li class="list-group-item">✔ Event Branding</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button class="btn btn-outline-secondary" data-bs-dismiss="modal">
+              Close
+            </button>
+
+            <button class="btn btn-primary">Book Event</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="birthdayModal" tabindex="-1">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg">
+          <img
+            src="https://cdn0.weddingwire.in/vendor/4706/3_2/640/jpg/file-1774371379420-15-494706-177437138132379_15_494706-177571969417053.jpeg"
+            class="img-fluid rounded-top"
+            style="height: 300px; object-fit: cover"
+          />
+
+          <div class="modal-body p-4">
+            <h2 class="fw-bold">🎂 Birthday Celebration</h2>
+
+            <p class="text-muted">
+              Celebrate birthdays with exciting themes, balloon decoration, live
+              entertainment, customized cakes and memorable surprises.
+            </p>
+
+            <div class="row">
+              <div class="col-md-6">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">✔ Theme Decoration</li>
+
+                  <li class="list-group-item">✔ Balloon Art</li>
+
+                  <li class="list-group-item">✔ Customized Cake</li>
+                </ul>
+              </div>
+
+              <div class="col-md-6">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">✔ Magic Show</li>
+
+                  <li class="list-group-item">✔ DJ Music</li>
+
+                  <li class="list-group-item">✔ Photography</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button class="btn btn-outline-secondary" data-bs-dismiss="modal">
+              Close
+            </button>
+
+            <button class="btn btn-primary">Book Party</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="destinationModal" tabindex="-1">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg">
+          <img
+            src="https://content.jdmagicbox.com/comp/kolhapur/b2/0231px231.x231.180709131103.s4b2/catalogue/artistic-event-planner-kadamwadi-kolhapur-event-organisers-stc3tktrft.jpg"
+            class="img-fluid rounded-top"
+            style="height: 300px; object-fit: cover"
+          />
+
+          <div class="modal-body p-4">
+            <h2 class="fw-bold">🌴 Destination Wedding</h2>
+
+            <p class="text-muted">
+              Exchange your vows at breathtaking destinations. We organize beach
+              weddings, palace weddings, mountain resorts and luxury venues with
+              complete planning.
+            </p>
+
+            <div class="row">
+              <div class="col-md-6">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">✔ Luxury Resorts</li>
+
+                  <li class="list-group-item">✔ Beach Weddings</li>
+
+                  <li class="list-group-item">✔ Palace Decoration</li>
+                </ul>
+              </div>
+
+              <div class="col-md-6">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">✔ Travel Arrangement</li>
+
+                  <li class="list-group-item">✔ Guest Accommodation</li>
+
+                  <li class="list-group-item">✔ Premium Catering</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button class="btn btn-outline-secondary" data-bs-dismiss="modal">
+              Close
+            </button>
+
+            <button class="btn btn-primary">Book Destination Wedding</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= Engagement Modal ================= -->
+
+    <div class="modal fade" id="engagementModal" tabindex="-1">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMm295rEzUhAHnPMPoRnry842pEpinf3K5ZIlbf1aHilbeiiuelwL7Hbo&s=10"
+            class="img-fluid rounded-top"
+            style="height: 300px; object-fit: cover; width: 100%"
+          />
+
+          <div class="modal-body p-4">
+            <h2 class="fw-bold text-primary">💍 Engagement Ceremony</h2>
+
+            <p class="text-muted">
+              Celebrate your engagement with elegant decorations, floral themes,
+              professional photography, live music, and unforgettable memories.
+            </p>
+
+            <div class="row">
+              <div class="col-md-6">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">✔ Ring Ceremony Setup</li>
+
+                  <li class="list-group-item">✔ Stage Decoration</li>
+
+                  <li class="list-group-item">✔ Floral Design</li>
+                </ul>
+              </div>
+
+              <div class="col-md-6">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">✔ Photography</li>
+
+                  <li class="list-group-item">✔ Catering</li>
+
+                  <li class="list-group-item">✔ Live Music</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button class="btn btn-outline-secondary" data-bs-dismiss="modal">
+              Close
+            </button>
+
+            <button class="btn btn-primary">Book Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= Engagement Modal ================= -->
+
+    <div class="modal fade" id="engagementModal" tabindex="-1">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMm295rEzUhAHnPMPoRnry842pEpinf3K5ZIlbf1aHilbeiiuelwL7Hbo&s=10"
+            class="img-fluid rounded-top"
+            style="height: 300px; object-fit: cover; width: 100%"
+          />
+
+          <div class="modal-body p-4">
+            <h2 class="fw-bold text-primary">💍 Engagement Ceremony</h2>
+
+            <p class="text-muted">
+              Celebrate your engagement with elegant decorations, floral themes,
+              professional photography, live music, and unforgettable memories.
+            </p>
+
+            <div class="row">
+              <div class="col-md-6">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">✔ Ring Ceremony Setup</li>
+
+                  <li class="list-group-item">✔ Stage Decoration</li>
+
+                  <li class="list-group-item">✔ Floral Design</li>
+                </ul>
+              </div>
+
+              <div class="col-md-6">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">✔ Photography</li>
+
+                  <li class="list-group-item">✔ Catering</li>
+
+                  <li class="list-group-item">✔ Live Music</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button class="btn btn-outline-secondary" data-bs-dismiss="modal">
+              Close
+            </button>
+
+            <button class="btn btn-primary">Book Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="djModal" tabindex="-1">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg">
+          <img
+            src="https://cdn0.weddingwire.in/vendor/6607/3_2/960/jpeg/aashirwaad-events2_15_236607-1564555573.jpeg"
+            class="img-fluid rounded-top"
+            style="height: 300px; object-fit: cover; width: 100%"
+          />
+
+          <div class="modal-body p-4">
+            <h2 class="fw-bold text-primary">🎧 Music & DJ Night</h2>
+
+            <p class="text-muted">
+              Bring energy to your event with top DJs, amazing lighting,
+              powerful sound systems and unforgettable entertainment.
+            </p>
+
+            <div class="row">
+              <div class="col-md-6">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">✔ Professional DJ</li>
+
+                  <li class="list-group-item">✔ Dance Floor</li>
+
+                  <li class="list-group-item">✔ LED Lighting</li>
+                </ul>
+              </div>
+
+              <div class="col-md-6">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">✔ Live Performances</li>
+
+                  <li class="list-group-item">✔ Sound System</li>
+
+                  <li class="list-group-item">✔ Smoke Effects</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button class="btn btn-outline-secondary" data-bs-dismiss="modal">
+              Close
+            </button>
+
+            <button class="btn btn-primary">Book DJ Night</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="receptionModal" tabindex="-1">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg">
+          <img
+            src="https://img.magnific.com/free-photo/decorated-banquet-hall-with-flowers_8353-10058.jpg?semt=ais_hybrid&w=740&q=80"
+            class="img-fluid rounded-top"
+            style="height: 300px; object-fit: cover; width: 100%"
+          />
+
+          <div class="modal-body p-4">
+            <h2 class="fw-bold text-primary">🎉 Reception Celebration</h2>
+
+            <p class="text-muted">
+              Celebrate your reception in style with premium decoration, luxury
+              dining, entertainment and professional event coordination.
+            </p>
+
+            <div class="row">
+              <div class="col-md-6">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">✔ Luxury Decoration</li>
+
+                  <li class="list-group-item">✔ Live Band</li>
+
+                  <li class="list-group-item">✔ Catering</li>
+                </ul>
+              </div>
+
+              <div class="col-md-6">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">✔ Guest Management</li>
+
+                  <li class="list-group-item">✔ Photography</li>
+
+                  <li class="list-group-item">✔ Lighting</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button class="btn btn-outline-secondary" data-bs-dismiss="modal">
+              Close
+            </button>
+
+            <button class="btn btn-primary">Book Reception</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="receptionModal" tabindex="-1">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg">
+          <img
+            src="https://img.magnific.com/free-photo/decorated-banquet-hall-with-flowers_8353-10058.jpg?semt=ais_hybrid&w=740&q=80"
+            class="img-fluid rounded-top"
+            style="height: 300px; object-fit: cover; width: 100%"
+          />
+
+          <div class="modal-body p-4">
+            <h2 class="fw-bold text-primary">🎉 Reception Celebration</h2>
+
+            <p class="text-muted">
+              Celebrate your reception in style with premium decoration, luxury
+              dining, entertainment and professional event coordination.
+            </p>
+
+            <div class="row">
+              <div class="col-md-6">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">✔ Luxury Decoration</li>
+
+                  <li class="list-group-item">✔ Live Band</li>
+
+                  <li class="list-group-item">✔ Catering</li>
+                </ul>
+              </div>
+
+              <div class="col-md-6">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">✔ Guest Management</li>
+
+                  <li class="list-group-item">✔ Photography</li>
+
+                  <li class="list-group-item">✔ Lighting</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button class="btn btn-outline-secondary" data-bs-dismiss="modal">
+              Close
+            </button>
+
+            <button class="btn btn-primary">Book Reception</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="anniversaryModal" tabindex="-1">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg">
+          <img
+            src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?fm=jpg&q=60&w=1200"
+            class="img-fluid rounded-top"
+            style="height: 300px; object-fit: cover; width: 100%"
+          />
+
+          <div class="modal-body p-4">
+            <h2 class="fw-bold text-primary">❤️ Anniversary Celebration</h2>
+
+            <p class="text-muted">
+              Celebrate your beautiful journey together with romantic
+              decorations, music, candlelight dinners and unforgettable
+              memories.
+            </p>
+
+            <div class="row">
+              <div class="col-md-6">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">✔ Romantic Decoration</li>
+
+                  <li class="list-group-item">✔ Candlelight Dinner</li>
+
+                  <li class="list-group-item">✔ Live Music</li>
+                </ul>
+              </div>
+
+              <div class="col-md-6">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">✔ Photography</li>
+
+                  <li class="list-group-item">✔ Customized Cake</li>
+
+                  <li class="list-group-item">✔ Fireworks</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button class="btn btn-outline-secondary" data-bs-dismiss="modal">
+              Close
+            </button>
+
+            <button class="btn btn-primary">Book Celebration</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3">
+      <p>&copy; 2024 Event Planning. All rights reserved.</p>
+      <p>Contact us at info@eventplanning.com</p>
+      <p>phone: 123-456-7890</p>
+      <p>
+        Follow us on social media: <a href="#" class="text-white">Facebook</a> |
+        <a href="#" class="text-white">Twitter</a> |
         <a href="#" class="text-white">Instagram</a>
-    </p>
-</footer>
-
-
-
-
-
-    
-</body>
+      </p>
+    </footer>
+  </body>
 </html>
